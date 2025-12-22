@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.2.7">
+  <diagram name="Page-1" id="21rZrI_tuSRrcQ7HQhnu">
+    <mxGraphModel dx="3702" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="540" width="1960" x="-800" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;MITRE ATTACK FRAME WORK USED&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="570" x="-760" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;a href=&quot;https://attack.mitre.org/tactics/TA0043/&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Reconnaissance&lt;/font&gt;&lt;/b&gt;&lt;br&gt;      &lt;/a&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;TA0043&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="92.72727272727272" width="129.20450048360175" x="-710" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1595&quot;&gt;Active Scanning &lt;/a&gt;&lt;br&gt;T1595" vertex="1">
+          <mxGeometry height="61.81818181818182" width="91.20317681195417" x="-656.7981468596934" y="532.4242424242424" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;a href=&quot;https://attack.mitre.org/tactics/TA0001/&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Initial Access&lt;/font&gt;&lt;/b&gt;&lt;br&gt;      &lt;/a&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;TA0001&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="92.72727272727272" width="129.20450048360175" x="-459.191263767126" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1078&quot;&gt;Valid Accounts &lt;/a&gt;&lt;br&gt;T1078" vertex="1">
+          <mxGeometry height="61.81818181818182" width="91.20317681195417" x="-405.98941062681934" y="532.4242424242424" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1190&quot;&gt;Exploit Public-Facing Application &lt;/a&gt;&lt;br&gt;T1190" vertex="1">
+          <mxGeometry height="86.06060606060606" width="91.19901476221875" x="-405.9904963789242" y="594.2424242424242" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;a href=&quot;https://attack.mitre.org/tactics/TA0002/&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Execution&lt;/b&gt;&lt;/font&gt;&lt;br&gt;      &lt;/a&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;TA0002&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="92.72727272727272" width="129.20450048360175" x="-185.58173333126354" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1059&quot;&gt;Command and Scripting Interpreter &lt;/a&gt;&lt;br&gt;T1059" vertex="1">
+          <mxGeometry height="87.27272727272728" width="91.19901476221875" x="-132.38386128200807" y="532.4242424242424" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;a href=&quot;https://attack.mitre.org/tactics/TA0003/&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Persistence&lt;/font&gt;&lt;/b&gt;&lt;br/&gt;      &lt;/a&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;TA0003&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="92.72727272727272" width="129.20450048360175" x="72.82726763594007" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1053/003&quot;&gt;Cron&amp;nbsp;&lt;/a&gt;&lt;br&gt;T1053.003&amp;nbsp;" vertex="1">
+          <mxGeometry height="87.27272727272728" width="91.19901476221875" x="126.03093036308837" y="532.4242424242424" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;br&gt;&lt;table class=&quot;table-techniques&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;technique&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;&lt;br&gt;&lt;/td&gt;                    &lt;td&gt;&lt;a href=&quot;https://attack.mitre.org/techniques/T1098&quot;&gt;Account Manipulation &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;T1098&amp;nbsp;" vertex="1">
+          <mxGeometry height="98.18181818181819" width="91.19901476221875" x="126.03093036308837" y="619.6969696969697" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;a href=&quot;https://attack.mitre.org/tactics/TA0004/&quot;&gt;&lt;br&gt;        &lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Privilege Escalation&lt;/font&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;TA0004&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="109.0909090909091" width="129.20739582254822" x="346.4373409478553" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;table class=&quot;table-techniques&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;sub technique&quot;&gt;&lt;td&gt;&lt;a href=&quot;https://attack.mitre.org/techniques/T1548/003&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;/td&gt;&lt;br/&gt;                        &lt;td&gt;&lt;br/&gt;                            &lt;a href=&quot;https://attack.mitre.org/techniques/T1548/003&quot;&gt; Sudo and Sudo Caching &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;T1548.003" vertex="1">
+          <mxGeometry height="111.51515151515152" width="91.19901476221875" x="421.7156106784953" y="546.969696969697" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1548/001&quot;&gt;Setuid and Setgid&lt;/a&gt;&lt;br&gt;T1548.001" vertex="1">
+          <mxGeometry height="111.51515151515152" width="91.19901476221875" x="421.7156106784953" y="658.4848484848485" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;b&gt;&lt;a href=&quot;https://attack.mitre.org/tactics/TA0007/&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Discovery&lt;/font&gt;&lt;/a&gt;&lt;br&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;TA0007&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="92.72727272727272" width="129.20450048360175" x="623.1226261382274" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1046&quot;&gt;Network Service Discovery &lt;/a&gt;&lt;br&gt;T1046" vertex="1">
+          <mxGeometry height="111.51515151515152" width="91.19901476221875" x="680.6674876981508" y="532.4242424242424" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1018&quot;&gt;Remote System Discovery &lt;/a&gt;&lt;br&gt;T1018" vertex="1">
+          <mxGeometry height="111.51515151515152" width="91.19901476221875" x="680.6674876981508" y="643.939393939394" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;container=0;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://attack.mitre.org/tactics/TA0011/&quot;&gt;Command and Control&amp;nbsp;&lt;/a&gt;&lt;br&gt;TA0011&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="92.72727272727272" width="129.20450048360175" x="901.2561236778577" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1071&quot;&gt;Application Layer Protocol&lt;/a&gt;&lt;br&gt;T1071" vertex="1">
+          <mxGeometry height="111.51515151515152" width="91.19901476221875" x="958.8009852377813" y="532.4242424242424" as="geometry" />
+        </mxCell>
+        <mxCell id="1hTpJ--SQcJ9hyGzmj10-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="&lt;a href=&quot;https://attack.mitre.org/techniques/T1095&quot;&gt;Non-Application Layer Protocol &lt;/a&gt;T1095" vertex="1">
+          <mxGeometry height="111.51515151515152" width="91.19901476221875" x="958.8009852377813" y="643.939393939394" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

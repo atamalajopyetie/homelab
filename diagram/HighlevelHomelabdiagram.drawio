@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.2.7">
+  <diagram name="Page-1" id="_N7ri1QF1hlD_l2zh08_">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="250" width="1040" x="70" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Attacker" vertex="1">
+          <mxGeometry height="100" width="50" x="130" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="NODE&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="140" x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Detective Controls&lt;br&gt;: SIEM Correlation,MITRE Mapping,State Transition, Severity Escalation" vertex="1">
+          <mxGeometry height="130" width="180" x="660" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Response Using Automation - SOAR" vertex="1">
+          <mxGeometry height="60" width="140" x="910" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-5" edge="1" parent="1" source="DGLGCikUQQmNqUCqWZhi-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="DGLGCikUQQmNqUCqWZhi-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-6" edge="1" parent="1" source="DGLGCikUQQmNqUCqWZhi-9" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="DGLGCikUQQmNqUCqWZhi-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="450" as="sourcePoint" />
+            <mxPoint x="510" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-7" edge="1" parent="1" source="DGLGCikUQQmNqUCqWZhi-3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.011;exitY=0.385;exitDx=0;exitDy=0;exitPerimeter=0;" target="DGLGCikUQQmNqUCqWZhi-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="410" as="sourcePoint" />
+            <mxPoint x="830" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Logs from Node" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DGLGCikUQQmNqUCqWZhi-10" edge="1" parent="1" source="DGLGCikUQQmNqUCqWZhi-2" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="DGLGCikUQQmNqUCqWZhi-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
