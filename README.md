@@ -1,5 +1,5 @@
 # homelab
-This project focuses on designing and implementing an end-to-end detection engineering pipeline for a single-node Linux environment, aligned with the MITRE ATT&amp;CK framework.
+This project focuses on designing and implementing an end-to-end detection engineering pipeline for a single-node Linux environment, aligned with the MITRE ATT&CK framework.
 
 ## Objectives
 - Build a MITRE ATT&CK–mapped detection framework
@@ -24,36 +24,8 @@ This project focuses on designing and implementing an end-to-end detection engin
 - Focus on realistic low-and-slow attacks, not malware detonation
 
 ## Repository Structure
-siem-detection-engineering-project/
-│
-├── README.md
-│
-├── docs/
-│   ├── 01-project-overview.md
-│   ├── 02-threat-model.md
-│   ├── 03-architecture.md
-│   ├── 04-mitre-mapping.md
-│   ├── 05-log-sources.md
-│   ├── 06-detection-logic.md
-│   ├── 07-validation-testing.md
-│   └── 08-future-work.md
-│
-├── detections/
-│   ├── reconnaissance.md
-│   ├── initial_access.md
-│   ├── execution.md
-│   ├── persistence.md
-│   ├── privilege_escalation.md
-│   └── command_and_control.md
-│
-├── configs/              # optional, later
-│   ├── suricata/
-│   ├── auditd/
-│   └── siem/
-│
-└── diagrams/
-    ├── architecture.drawio
-    └── mitre-flow.drawio
+<img width="604" height="1076" alt="image" src="https://github.com/user-attachments/assets/79d22721-199f-4034-865f-608c7a367814" />
+
 
 
 
