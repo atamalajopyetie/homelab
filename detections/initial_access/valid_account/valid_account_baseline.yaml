@@ -1,0 +1,11 @@
+baseline:
+  user: manas-inspiron-5402
+  login_hours:
+    start: 8
+    end: 24
+  known_ips:
+    - 127.0.0.0/8
+    - 192.168.1.0/24
+  expected_login_intervals: [24,48,96]
+  expected_concurrent_sessions: 1
+  normal_failrate: 0.1 
