@@ -90,20 +90,21 @@ Raw shell commands are converted into structured execution events.
 
 ### Normalized Event Structure
 
-```json
-{
-  "timestamp": 1767034001,
-  "auid": "manas",
-  "exe": "sudo",
-  "argv": ["sudo", "systemctl", "restart", "ssh"],
-  "parent_exe": "bash",
-  "tty": "pts",
-  "argc": 4,
-  "cmd_flags": {
-    "inline": false,
-    "chained": false
-  }
-}```
+    {
+      "timestamp": 1767034001,
+      "auid": "manas",
+      "exe": "sudo",
+      "argv": ["sudo", "systemctl", "restart", "ssh"],
+      "parent_exe": "bash",
+      "tty": "pts",
+      "argc": 4,
+      "cmd_flags": {
+        "inline": false,
+        "chained": false
+      }
+    }
+
+**NOTE - this is a sample event**
 
 Why Normalization Is Required
 - Raw command strings are inconsistent
@@ -213,19 +214,20 @@ Avoids penalizing legitimate admin behavior.
 
 Shadow scoring emits non-alerting context events:
 
-```{
-  "event_type": "execution_shadow",
-  "timestamp": 1767034001,
-  "user": "manas",
-  "score": 4.8,
-  "range": "clear_anomaly",
-  "signals": [
-    "rare_hour",
-    "new_parent_chain",
-    "inline_exec"
-  ]
-}```
 
+    {
+      "event_type": "execution_shadow",
+      "timestamp": 1767034001,
+      "user": "manas",
+      "score": 4.8,
+      "range": "clear_anomaly",
+      "signals": [
+        "rare_hour",
+        "new_parent_chain",
+        "inline_exec"
+      ]
+    }
+**NOTE - this is a sample event**
 
 These events are used for:
 - Privilege Escalation correlation
@@ -236,7 +238,7 @@ These events are used for:
 
 Each script has one responsibility only.
 
-### history_to_events.py — Execution Normalization
+### [history_to_events.py — Execution Normalization](https://github.com/atamalajopyetie/homelab/blob/main/detections/execution/execution_baseline/history_to_events.py "history_to_events.py — Execution Normalization")
 Purpose
 Converts raw shell history into normalized execution events.
 
@@ -250,7 +252,7 @@ Responsibilities
 Output
 - execution_events.json
 
-### baseline_learner.py — Execution Baseline Learning
+### [baseline_learner.py — Execution Baseline Learning](https://github.com/atamalajopyetie/homelab/blob/main/detections/execution/execution_baseline/baseline_learner.py "### baseline_learner.py — Execution Baseline Learning")
 Purpose
 Learns normal execution behavior for a single user.
 
@@ -265,7 +267,7 @@ Responsibilities
 Output
 - execution_baseline.json
 
-### shadow_scorer.py — Execution Shadow Scoring
+### [shadow_scorer.py — Execution Shadow Scoring](https://github.com/atamalajopyetie/homelab/blob/main/detections/execution/execution_baseline/shadow_execution_scorer.py "shadow_scorer.py — Execution Shadow Scoring")
 Purpose
 Scores execution events based on deviation from baseline.
 
@@ -285,7 +287,7 @@ Characteristics
 Output
 - execution_shadow.json
 
-### run_learner.sh — Learning Orchestration
+### [run_learner.sh — Learning Orchestration](https://github.com/atamalajopyetie/homelab/blob/main/detections/execution/execution_baseline/run_learning.sh "run_learner.sh — Learning Orchestration")
 Purpose
 Provides a cron-safe execution wrapper.
 
