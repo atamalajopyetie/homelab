@@ -8,7 +8,7 @@ This threat model defines:
 - what is intentionally excluded
 
 ## Asset Being Protected
-###Primary Asset
+### Primary Asset
 A Linux endpoint used for:
 - browsing
 - development
