@@ -65,7 +65,7 @@ Those require:
 - SIEM aggregation
 - Historical analysis
 
-##Output Formats
+## Output Formats
 All reconnaissace alerts are written to:
 /var/log/suricata/eve.json
 event_type:"alert"
