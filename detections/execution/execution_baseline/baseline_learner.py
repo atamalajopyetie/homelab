@@ -7,7 +7,7 @@ from collections import defaultdict
 BASELINE_FILE = "execution_baseline.json"
 EVENT_FILE = "execution_events.json"
 
-USER_AUID = "manas"
+USER_AUID = "" #your auid ex - karan {yourname}
 
 SYSTEM_DAEMONS = {
     "/usr/sbin/sshd",
