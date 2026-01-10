@@ -1,5 +1,5 @@
 baseline:
-  user: manas-inspiron-5402
+  user: inspiron-5402 # you need to write your username here
   login_hours:
     start: 8
     end: 24
@@ -9,3 +9,6 @@ baseline:
   expected_login_intervals: [24,48,96]
   expected_concurrent_sessions: 1
   normal_failrate: 0.1 
+
+
+# This baseline was configured based on a basic understanding of my system, and you should try your own baseline by using this reference.
