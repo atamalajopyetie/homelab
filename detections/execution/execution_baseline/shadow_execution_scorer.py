@@ -7,7 +7,7 @@ BASELINE_FILE = "execution_baseline.json"
 EVENT_FILE = "execution_events.json"
 SHADOW_FILE = "execution_shadow.json"
 
-USER_AUID = "manas"
+USER_AUID = "" #your auid ex - jack {your name}
 
 
 # ------------------------
