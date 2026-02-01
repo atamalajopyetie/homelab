@@ -1,4 +1,5 @@
 # Execution Detection — Command & Scripting Interpreters (TA0002)
+**Note:** Updated part at the bottom
 
 ## 1. Purpose
 
@@ -326,3 +327,7 @@ Execution ≠ malicious
 Deviation ≠ alert
 Context enables correlation
 Shadow scoring enables reasoning
+
+### Updated Part as of 01/02/2026
+- We changed status of baseline from "learning" -> "frozen" after 72% confidence score in baseline (it's local ofcourse)
+- We updated .sh (corn job file) removed baseline learner and added shadow scorer to it
