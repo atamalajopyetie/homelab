@@ -28,15 +28,15 @@ PrivEsc Is the Bridge Between Execution and Persistence
 ### Scope 
 1. Unauthorized Sudo Usage
 examples:
- - Compromised user account abusing sudo
- - Malicious scripts invoking sudo
- - Insider misuse of elevated privileges
+   - Compromised user account abusing sudo
+   - Malicious scripts invoking sudo
+   - Insider misuse of elevated privileges
 
 2. PolicyKit (pkexec) Privilege Escalation
 examples
- -  Exploitation of pkexec vulnerabilities
- - Misconfigured PolicyKit rules
- - Abuse of graphical privilege prompts
+   -  Exploitation of pkexec vulnerabilities
+   - Misconfigured PolicyKit rules
+   - Abuse of graphical privilege prompts
 
 3. Setuid / UID Transition Abuse
  examples
@@ -84,6 +84,7 @@ Only type=SYSCALL records related to execution and UID transitions are processed
 ### Parsed Event Structure (Raw)
 Each audit record is parsed and normalized into a structured JSON object before detection logic is applied.
 Example (raw parsed event):
+```
     {
       "event_id": 48192,
       "timestamp": 1768900331,
@@ -98,6 +99,7 @@ Example (raw parsed event):
       "success": true,
       "comm": "sudo"
     }
+```
     
 At this stage:
 - No security judgment is made
@@ -120,6 +122,7 @@ Events failing these checks are discarded as non-security-relevant noise.
 Candidate Event Structure
 Events that pass normalization are emitted as privilege escalation candidates.
 Example:
+```
     {
       "event_type": "privesc_candidate",
       "event_id": 48192,
@@ -140,7 +143,7 @@ Example:
         "comm": "sudo"
       }
     }
-
+```
 ## Scoring Logic
 Each candidate is assigned a risk rank (1–4) based on mechanism and execution context.
 
