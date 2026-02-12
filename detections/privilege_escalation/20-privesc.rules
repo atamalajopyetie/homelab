@@ -1,0 +1,22 @@
+# --------------------------------------------------
+# Privilege Escalation - TA0004
+# Truth-only audit rules (no detection logic)
+# --------------------------------------------------
+
+# EXECUTION (truth source)
+-a always,exit -F arch=b64 -S execve -k execve
+-a always,exit -F arch=b32 -S execve -k execve
+
+# UID TRANSITIONS (implicit escalation)
+-a always,exit -F arch=b64 -S setuid -S setreuid -S setresuid -k uid_change
+-a always,exit -F arch=b32 -S setuid -S setreuid -S setresuid -k uid_change
+
+# SUDO (explicit escalation)
+-w /usr/bin/sudo -p x -k sudo_exec
+
+# ROOT EXEC BY NON-ROOT USER
+-a always,exit -F arch=b64 -F euid=0 -F auid>=1000 -F auid!=-1 -S execve -k root_exec
+-a always,exit -F arch=b32 -F euid=0 -F auid>=1000 -F auid!=-1 -S execve -k root_exec
+
+# PKEXEC (policykit escalation)
+-w /usr/bin/pkexec -p x -k pkexec_exec
